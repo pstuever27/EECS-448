@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: #333;
+    font-size: 17px;
+    overflow: hidden;
+
+}
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: rgb(30, 30, 34);
+
+}
+.header a.active {
+    background-color: #00a6ff;
+    color: white;
+  }
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+}

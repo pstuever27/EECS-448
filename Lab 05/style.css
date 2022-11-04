@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color: oldlace;
+}
+.header{
+    background-color: #333;
+    font-size: 17px;
+    overflow: hidden;
+
+}
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: rgb(30, 30, 34);
+
+}
+.header a.active {
+    background-color: #00a6ff;
+    color: white;
+  }
+
+.container{
+    width: 50%;
+    margin-left: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container h2{
+    margin-block-start: 0em;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 50%;
+    margin-left: 10px;
+}
+
+.files{
+    width: 100%;
+    
+}
+
+.files a{
+    text-decoration: none;
+    color: black;
+}
+
+.files a:hover{
+    background-color: rgb(125, 155, 165);
+}

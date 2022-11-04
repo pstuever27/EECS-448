@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(175, 175, 175);
+    margin: 0;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+#container {
+    position: relative;
+    list-style-type: none;
+}
+
+.slide{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
+.showing{
+    z-index: 2;
+}
+.button{
+    color: white;
+    position: relative;
+    left:35%;
+    top: 600px;
+    background-color: #333;
+}
+.header{
+    background-color: #333;
+    font-size: 17px;
+    overflow: hidden;
+
+}
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: rgb(30, 30, 34);
+
+}
+.header a.active {
+    background-color: #00a6ff;
+    color: white;
+  }

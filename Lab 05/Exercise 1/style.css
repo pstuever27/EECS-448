@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(35, 35, 35);
+    margin: 0;
+}
+.container{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    border: black;
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+    margin: 25%;
+
+}
+.submit{
+    position:relative;
+    padding: 3px;
+    font-family: sans-serif;
+    width: 99.25%;
+    opacity: 0.25;
+}
+.box{ 
+    position: relative;
+    width: 98%;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    opacity: 0.5;
+}
+    .header{
+background-color: #333;
+font-size: 17px;
+overflow: hidden;
+
+}
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: rgb(30, 30, 34);
+
+}
+.header a.active {
+    background-color: #00a6ff;
+    color: white;
+}

@@ -1,0 +1,233 @@
+.header{
+    background-color: #333;
+    font-size: 17px;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header img{
+    height: 17px;
+    width: 17px;
+
+}
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: rgb(30, 30, 34);
+
+}
+.header a.active {
+    background-color: #00a6ff;
+    color: white;
+  }
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("../stains.jpg");
+    background-attachment: fixed;
+    margin: 0;
+}
+
+h1{
+    left: 50%;
+    margin: 10px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.container-item{
+    display: block;
+    max-width: 30%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    margin: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container-item:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.container-item img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-item input{
+    margin-top: 5px;
+    width: fit-content;
+    border-style: none; 
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    width: 33%;
+    text-align: center;
+}
+
+.lower{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.login{
+    height: 100%;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding-top: 0;
+    margin: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.login:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.userpass{
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+}
+
+.userpass input{
+    margin-bottom: 2px;
+    border-style: none; 
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.userpass button{
+    border-style: none; 
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+.userpass button:hover{
+    background-color: rgba(255, 255, 255, .20);  
+}
+
+.options{
+    height: 50%;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.options:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.submit{
+    width:75%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    top:50%;
+    border-radius: 10px;
+    font-size: 32px;
+    margin-top: 10px;
+
+}
+
+.submit-button{
+    position: absolute;
+    display: inline-block;
+    top: 25.5%;
+    left: 50%;
+    border-style: none;
+    transform: translate(-50%, -50%);
+    margin-bottom: 2px;
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 95%;
+    height: 40%;
+    font-size: 32px;
+}
+
+.submit-button:hover{
+    background-color: rgba(255, 255, 255, .20);  
+}
+.submit-button2{
+    position: absolute;
+    display: inline-block;
+    top: 72.5%;
+    left: 50%;
+    border-radius: 10px;
+    border-style: none;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    width: 95%;
+    height: 40%;
+    font-size: 32px;
+}
+
+.submit-button2:hover{
+    background-color: rgba(255, 255, 255, .20);  
+}
+
+/**PHP Page CSS Stuff**/
+/**---------------------------------------------------**/
+.order-container{
+    width: fit-content;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.order-container:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.order-container h1{
+    margin: 0;
+    color: black;
+}
+
+td{
+    border-style:solid;
+    text-align: center;
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercise 3 | Storefront</title>
+    <script src="formChecker.js"></script>
+</head>
+<body>
+    <div class="header">
+        <!--Make this into a navbar for the different parts of the lab-->
+        <a href="../../index.html"><img src="../../homeicon.png"></a>
+        <a href="../Exercise 1/index.php">Exercise 1</a>
+        <a href="../Exercise 2/index.html">Exercise 2</a>
+        <a class="active" href="index.html">Exercise 3</a>
+        <a href="../index.html">Source Code</a>
+        <!--Make these buttons on the navbar to navigate to the folders-->
+    </div>
+    <h1>Stolen Phones</h1>
+    <form id="form1" action="customerBackend.php" method="POST">
+    <div class="container">
+        <div class="container-item">
+            <h3>iPhone 4S - $150</h3>
+            <img src="broke3.png" alt="">
+            <div class="item-q">
+                    <input type="text" name="option1" id="option1" placeholder="Quantity">
+            </div>
+        </div>
+        <div class="container-item">
+            <h3>iPhone 6 - $200</h3>
+            <img src="broke1.png" alt="">
+            <div class="item-q">
+                    <input type="text" name="option2" id="option2" placeholder="Quantity">
+            </div>
+        </div>
+        <div class="container-item">
+            <h3>Samsung Galaxy S10 - $250</h3>
+            <img src="broke2.png" alt="">
+            <div class="item-q"> 
+                    <input type="text" name="option3" id="option3" placeholder="Quantity">
+            </div>
+        </div>
+    </div>
+    <div class="lower">
+        <div class="options">
+            <h2>Shipping Options</h2>
+            <hr>
+                <input type="radio" name="ship" id="free" value="0">
+                <label for="free">7-Day Shipping: Free</label><br>
+                <input type="radio" name="ship" id="three" value="5">
+                <label for="three">3-Day Shipping: $5</label><br>
+                <input type="radio" name="ship" id="nextday" value="50">
+                <label for="nextday">Overnight Shipping: $50</label><br>
+        </div>
+        <div class="login">
+            <h2>Login</h2>
+            <hr>
+            <div class="userpass">
+                <input type="text" id="user" name="user" placeholder="Username"> <br>
+                <input type="password" id="pass" name="password" placeholder="Password"> <br>
+                <button type="button" onclick="checkLogin()">Login</button>
+                <p id="confirmation"></p>
+            </div>
+        </div>
+        <div class="submit">
+            <button type="button" class="submit-button" onclick="finish()">Submit</button> <br> 
+            <button class="submit-button2" type="reset" id="reset">Reset Order</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 | Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="header">
+            <!--Make this into a navbar for the different parts of the lab-->
+            <a href="../../index.html"><img src="../../homeicon.png"></a>
+            <a href="../Exercise 1/index.php">Exercise 1</a>
+            <a class="active" href="index.html">Exercise 2</a>
+            <a href="../Exercise 3/index.html">Exercise 3</a>
+            <a href="../index.html">Source Code</a>
+            <!--Make these buttons on the navbar to navigate to the folders-->
+        </div>
+        <div class="answers">
+        <h1>Quiz</h1>
+        <hr>
+
+        <form action="quiz.php" method="POST">
+            <p class='question'>Question 1: Do it bool?</p>
+            <input id="q1-0" type="radio" name="q1" value="yes">
+            <label for="q1-0">Yes</label><br>
+            <input id="q1-1" type="radio" name="q1" value="what it do?">
+            <label for="q1-1">What it do?</label><br>
+            <input id="q1-2" type="radio" name="q1" value="idk">
+            <label for="q1-2">idk</label><br>
+            <input id="q1-3" type="radio" name="q1" value="kill me">
+            <label for="q1-3">Kill Me</label><br>
+
+            <br>
+
+            <p class='question'>Question 2: What is 2+2?</p>
+            <input id="q2-0" type="radio" name="q2" value="4">
+            <label for="q2-0">4</label><br>
+            <input id="q2-1" type="radio" name="q2" value="Wumbo">
+            <label for="q2-1">Wumbo</label><br>
+            <input id="q2-2" type="radio" name="q2" value="200">
+            <label for="q2-2">200</label><br>
+            <input id="q2-3" type="radio" name="q2" value="I failed math in the 2nd grade and never recovered">
+            <label for="q2-3">I failed math in the 2nd grade and never recovered</label><br>
+
+            <br>
+
+            <p class='question'>Question 3: If we take the derivative of x^2, what is the result?</p>
+            <input id="q3-0" type="radio" name="q3" value="1/2x^3">
+            <label for="q3-0">1/2x^3</label><br>
+            <input id="q3-1" type="radio" name="q3" value="2">
+            <label for="q3-1">2</label><br>
+            <input id="q3-2" type="radio" name="q3" value="x">
+            <label for="q3-2">x</label><br>
+            <input id="q3-3" type="radio" name="q3" value="2x">
+            <label for="q3-3">2x</label><br>
+
+            <br>
+
+            <p class='question'>Question 4: What is the address of Eaton Hall?</p>
+            <input id="q4-0" type="radio" name="q4" value="123 Sesame Street">
+            <label for="q4-0">123 Sesame Street</label><br>
+            <input id="q4-1" type="radio" name="q4" value="1520 W 15th St">
+            <label for="q4-1">1520 W 15th St</label><br>
+            <input id="q4-2" type="radio" name="q4" value="1520 W 14th St">
+            <label for="q4-2">1520 W 14th St</label><br>
+            <input id="q4-3" type="radio" name="q4" value="Apple One Apple Park Way Cupertino, CA">
+            <label for="q4-3">Apple One Apple Park Way Cupertino, CA</label><br>
+
+            <br>
+
+            <p class='question'>Question 5: Where can you find the ip of your computer in linux command line?</p>
+            <input id="q5-0" type="radio" name="q5" value="ipconfig">
+            <label for="q5-0">ipconfig</label><br>
+            <input id="q5-1" type="radio" name="q5" value="ipconfirm">
+            <label for="q5-1">ipconfirm</label><br>
+            <input id="q5-2" type="radio" name="q5" value="ifconfig">
+            <label for="q5-2">ifconfig</label><br>
+            <input id="q5-3" type="radio" name="q5" value="ifconfirm">
+            <label for="q5-3">ifconfirm</label><br>
+
+            <br>
+
+            <input class="submit" type="submit">
+
+
+        </form> 
+        </div>
+    </body>
+</html>

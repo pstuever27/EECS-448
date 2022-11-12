@@ -1,0 +1,59 @@
+.header{
+    background-color: #333;
+    font-size: 17px;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header img{
+    height: 17px;
+    width: 17px;
+
+}
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: rgb(30, 30, 34);
+
+}
+.header a.active {
+    background-color: #00a6ff;
+    color: white;
+  }
+
+body{
+    background-image: url("../stains.jpg");
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.mult{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+    padding: 5px;
+    width: fit-content;
+    color: white;
+}
+
+table{
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 20px black;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
